@@ -79,6 +79,8 @@ All contributions must pass the entire test suite before being accepted.
 
 ## Documentation
 
+* `docs/sos-report-execution-flow.md` - Detailed execution flow and architecture of `sos report`, including initialization sequence, design patterns, and guidance for adding new subcommands.
+
 User and API [documentation][6] is automatically generated using [Sphinx][7]
 and [Read the Docs][8].
 

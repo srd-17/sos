@@ -169,7 +169,7 @@ class SoSReport(SoSComponent):
         self._is_root = self.policy.is_root()
 
         # add a manifest section for report
-        self.report_md = self.manifest.components.add_section('report')
+        self.report_md = self.manifest.components.add_section('report')   
 
         self._set_directories()
 
